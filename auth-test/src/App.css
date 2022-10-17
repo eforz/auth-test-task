@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "ProximaNova-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("ProximaNova-Regular"),
+       url("../public/fonts/ProximaNova-Regular.ttf") format("ttf"),
+       url("../public/fonts/ProximaNova-Regular.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: 'ProximaNova-Regular', sans-serif;
+
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+  background: #fff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
